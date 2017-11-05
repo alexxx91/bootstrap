@@ -1,0 +1,328 @@
+body {
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+section .section-header{
+    margin-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+section .section-header .section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+section .section-header .section-caption {
+    font-family: "Roboto Slab", serif;
+}
+
+section h3 {
+   font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img-circle {
+    width: 100;
+    border-radius: 50%;
+}
+
+.social-link {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #222;
+    border: 1px solid #222;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color: white;
+    transition: : all .3s;
+    margin: 5px;
+    display: inline-block;
+    
+}
+
+.social-link:hover {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6; 
+    color: white;
+}
+/*main nav styles start*/
+
+#main-nav a.navbar-brand {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+#main-nav .nav-item a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#main-nav .nav-item a:hover {
+    color: #0ed8d6;
+}
+
+#main-nav.scroll {
+    background-color: rgba(14, 216, 214, 0.75);
+
+}
+
+#main-nav.scroll {
+    color: black;
+}
+
+/*main nav styles end*/
+
+/*main header styles*/
+
+#main-header {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../bootstrap-project-photos/img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#main-header .header-caption h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 3em;
+    font-style: italic;
+}
+
+#main-header .header-caption h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    margin: 45px 0;
+}
+
+#main-header .header-caption .read-more {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all 0.3s;
+    padding: 15px 30px;
+    
+}
+
+#main-header .header-caption .read-more:hover {
+    background-color: white;
+    border: 1px solid #0ed8d6;
+    color: white;
+    
+}
+
+/*main header styles end*/
+
+
+/*section servises start*/
+
+#services .fa {
+    font-size: 2.8em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color:white;
+    background-color: #0ed8d6;
+    transition: all 0.5s;
+}
+
+#services .fa:hover{
+    color: #0ed8d6;
+    background-color: white;
+    transform: rotate(360deg);
+}
+/*section services end*/
+
+/*section portfolio start*/
+
+#portfolio {
+    background-color: #f7f7f7;
+
+}
+
+#portfolio .portfolio-item {
+    background-color: white;
+    
+}
+
+#portfolio .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    transition: all 0.3s;
+}
+
+#portfolio .portfolio-item .portfolio-image-mask {
+    background-color: rgba(14, 216, 214, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .portfolio-item figcaption {
+    padding: 15px;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.5);
+    
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+    opacity: 1;
+}
+
+#portfolio-image-background-1 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/chaotic_paint.jpg)
+}
+
+#portfolio-image-background-2 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/box_of_cookies.jpg)
+}
+
+#portfolio-image-background-3 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/chestnut_on_bracket.jpg)
+}
+
+#portfolio-image-background-4 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/child_with_blue_paint.jpg)
+}
+
+#portfolio-image-background-5 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/house_with_blue_doors.jpg)
+}
+
+#portfolio-image-background-6 {
+    background-image: url(../bootstrap-project-photos/img/portfolio/typing_on_laptop.jpg)
+}
+
+
+
+
+/*section portfolio stop*/
+
+/*section team start*/
+
+#team .team-description {
+    margin-top: 40px;
+}
+
+/*section team end*/
+
+/*section contact*/
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)), url(../bootstrap-project-photos/img/footer/world-map.jpg)
+}
+ 
+#contact .section-header,
+#contact .section-header .section-title {
+    color: white;
+}
+
+#contact .contact-form .contact-form-column {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+#contact input:not([type='submit']),
+#contact textarea {
+    border: 0px solid;
+}
+
+#contact textarea {
+    height: 100%;
+}
+
+#contact input[type='submit']{
+   background-color: #0ed8d6;
+   border: 1px solid #0ed8d6; 
+   color: white;
+   transition: all .3s;
+   margin-top: 30px;
+    cursor: pointer;
+}
+
+#contact input[type='submit']:hover {
+   background-color: white;
+   border: 1px solid #0ed8d6; 
+   color: #0ed8d6;
+}
+
+/*section contact end*/
+
+/*footer start*/
+
+#main-footer {
+    padding: 10px 0;
+   
+}
+
+#main-footer .copyright,
+#main-footer .footer-nav {
+    line-height: 50px;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-footer .footer-nav .footer-nav-item a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#main-footer .footer-nav .footer-nav-item a:hover {
+    color: #0ed8d6;
+}
+/*footer end*/
